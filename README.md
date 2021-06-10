@@ -1,4 +1,4 @@
-# Learning from history for Byzantine Robust Optimization
+# Learning From History for Byzantine Robust Optimization
 
 This repository contains research code for the [Byzantine robust optimization paper](https://arxiv.org/abs/2012.10333).
 

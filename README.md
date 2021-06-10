@@ -1,10 +1,10 @@
 # Learning from History for Byzantine Robust Optimization
 
-This repository contains research code for the [Byzantine robust optimization paper](https://arxiv.org/abs/2012.10333).
+This repository contains research code for our [Byzantine robust optimization paper](https://arxiv.org/abs/2012.10333).
 
 
 Summary:
-We study the problem of federated and distributed learning in the presence of untrusted workers who may try to derail the training process. We first describe a simple new aggregator based on iterative *centered clipping* which has significantly stronger theoretical guarantees thn previous methods. This aggregator is especially interesting since, unlike most preceding methods, it is very scalable requiring only *n* computation and communication per round. Further, it is also compatible with other strategies such as [asynchronous updates](https://arxiv.org/abs/1604.00981) and [secure aggregation](https://eprint.iacr.org/2017/281.pdf), both of which are crucial for real world applications. Secondly, we show that the time coupled attacks can easily be overcome by using *worker momentum*. 
+We study the problem of federated and distributed learning in the presence of untrusted workers who may try to derail the training process. We first describe a simple new aggregator based on iterative **centered clipping** which has significantly stronger theoretical guarantees than previous methods. This aggregator is especially interesting since, unlike most preceding methods, it is very scalable requiring only *O(n)* computation and communication per round. Further, it is also compatible with other strategies such as [asynchronous updates](https://arxiv.org/abs/1604.00981) and [secure aggregation](https://eprint.iacr.org/2017/281.pdf), both of which are crucial for real world applications. Secondly, we show that the time coupled attacks can easily be overcome by using **worker momentum**. 
 
 
 # Code organization
